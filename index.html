@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout com Logo, Navegação e Botão</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header class="bg-color-laranja">
+
+        <!--desktop-->
+        <div class="w-100 bg-color-laranja desk-top">
+            <div class="container d-flex justify-content-between align-items-center -3">
+                <!-- Logo à esquerda -->
+                <div class="logo logodesk d-flex align-items-center gap-1 text-color-white">
+                    <img src="Screenshot_1.png" width="32" height="auto" alt="logo">
+                    <p>MWM</p>
+                </div>
+
+                <!-- Navegação centralizada -->
+                <nav class="flex-grow-1 mx-3">
+                    <ul class="d-flex justify-content-end list-unstyled mb-0">
+                        <li class="nav-item mx-3"><a href="#">Applications</a></li>
+                        <li class="nav-item mx-3"><a href="#">Technology</a></li>
+                        <li class="nav-item mx-3"><a href="#">Publishing</a></li>
+                        <li class="nav-item mx-3"><a href="#">Journal</a></li>
+                        <li class="nav-item mx-3"><a href="#">Career</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Botão à direita -->
+                <div class="">
+                    <a class="bg-black bnt-contato" href="" target="_blank">
+                        <button>CONTACT</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--mobile-->
+        <div class="container  d-flex justify-content-between">
+            <div class=" logo d-flex align-items-center gap-1 text-color-white">
+                <img src="Screenshot_1.png" class="logomob" width="32" height="auto" alt="logo">
+                <p class="logomob">MWM</p>
+            </div>
+            <div class="btn-abrir" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <div>
+                    <nav>
+                        <ul>
+                            <li class=""><a href="#">Applications</a></li>
+                            <li class=""><a href="#">Technology</a></li>
+                            <li class=""><a href="#">Publishing</a></li>
+                            <li class=""><a href="#">Journal</a></li>
+                            <li class=""><a href="#">Career</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div>
+
+
+        <div class="mt-5 w-100 bg-color-laranja">
+            <div>
+                <div class="container align-items-center ">
+                    <div class="justify-content-between d-flex text-color-white font">
+                        <p>MADE</p>
+                        <p>WITH</p>
+                        <p>MADNESS</p>
+                    </div>
+                    <div class="head">
+                        <img src="Screenshot_2.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="d-flex w-100 justify-content-center align-items-center mt-5">
+                    <p class="text-color-white justify max466">
+                        Embrace the madness with MWM. Driven by our passion for
+                        innovation and creativity, we use Artificial Intelligence to craft
+                        engaging apps across music, photography, drawing, and video. Our
+                        mission? To unlock the potential in every user, turning what might
+                        seem like 'madness' into an everyday reality.
+                    </p>
+                </div>
+            </div>
+
+    </header>
+
+    <div class="container mt-10 ">
+        <div>
+            <p class="fw-bold max520">
+                Embrace the madness with MWM. Driven by
+                our passion for innovation and creativity, we
+                use Artificial Intelligence to craft engaging
+                apps across music, photography, drawing,
+                and video. Our mission? To unlock the
+                potential in every user, turning what might
+                seem like 'madness' into an everyday reality.
+            </p>
+        </div>
+        <div class="pc2">
+            <div class="mt-5 d-flex justify-content-between align-items-end">
+                <div class="max365">
+                    <p class="grosso mb-0">Our exploration pursuit is powered by leading
+                        figures and innovators across industries, including
+                        Xavier Niel, French DJ Martin Solveig, BPI, Agla
+                        Eurazeo, Cassius Family, HDF, and Blisce.</p>
+                </div>
+
+                <div class="ms-auto">
+                    <img src="Screenshot_3.png" alt="Imagem de parceiros e colaboradores" class="img-fluid me-10">
+                </div>
+
+                <div>
+                    <p class="grosso mb-0">EMBRACE MADNESS</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 mob2 text-center">
+        <div class="d-flex flex-column align-items-center">
+            <div class="max365">
+                <p class="grosso">Our exploration pursuit is powered by leading
+                    figures and innovators across industries, including
+                    Xavier Niel, French DJ Martin Solveig, BPI, Agla
+                    Eurazeo, Cassius Family, HDF, and Blisce.</p>
+            </div>
+
+            <div class="mb-3">
+                <img src="Screenshot_3.png" alt="Imagem de parceiros e colaboradores" class="img-fluid">
+            </div>
+
+            <div>
+                <p class="grosso mt-3">EMBRACE MADNESS</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="container mt-10">
+        <div class="row g-3 justify-content-center">
+            <div class="col-lg-4 col-md-6 col-12">
+                <p class="text-color-laranja fw-bold">TECHNOLOGY</p>
+                <p class="h-200px">We take tech exploration to the next level, making advanced technology feel like
+                    magic. Discover what and how we do it.</p>
+                <img class="border w-100" src="img1.png" alt="Imagem de Tecnologia">
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <p class="text-color-laranja fw-bold">CAREER</p>
+                <p class="h-200px">If your 'mad' ideas were ever dismissed as too bold or unconventional, we might just
+                    be your kind of people.</p>
+                <img class="border w-100" src="img2.png" alt="Imagem de Carreira">
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <p class="text-color-laranja fw-bold">PUBLISHING</p>
+                <p class="h-200px">Got an app with potential? At MWM, we turn potential into reality. Let's transform
+                    your app's journey, from madness to success.</p>
+                <img class="border w-100" src="img3.png" alt="Imagem de Publicação">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container text-center my-5 w-100">
+        <p class="text justify-content-center">BORN <br>
+            TO CREATE</p>
+        <div class="row mt-4 align-center justify">
+            <div class=" col-md-4 text-left subtext">
+                <p class="">We believe that technology should be an enabler, empowering individuals to reach their full
+                    potential. We are on a mission to challenge the notion of what's possible in technology. By infusing
+                    our apps with advanced AI capabilities, we make technology more accessible, intuitive, and magical.
+                </p>
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="pessoanopc.png" class="img-fluid rounded" alt="Person working with technology">
+            </div>
+            <div class="col-md-4  text-left subtext justify ">
+                <p class="">Our technologies not only push the boundaries of what's possible but also have a profound
+                    impact on how users interact with our applications. You can expect a fusion of cutting-edge
+                    technology and human-centric design, opening doors to new realms of imagination and self-expression.
+                </p>
+                <a href="#" class="btn btn-custom mt-3">OUR TECHNOLOGY</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container my-5">
+        <!-- Item 1 -->
+        <div class="d-flex justify-content-between align-items-center border-bottom engine-item">
+            <div class="d-flex align-items-center">
+                <span class="engine-icon"><img src="sla.png" alt=""></span>
+            </div>
+            <span>Audio Source Separation Engine</span>
+            <span class="arrow-icon"><i class="bi bi-arrow-down-circle"></i></span>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="d-flex justify-content-between align-items-center border-bottom engine-item">
+            <div class="d-flex align-items-center">
+                <span class="engine-icon"><img src="cd.png" alt=""></span>
+            </div>
+            <span>Prediction Engine</span>
+            <span class="arrow-icon"><i class="bi bi-arrow-down-circle"></i></span>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="d-flex justify-content-between align-items-center border-bottom engine-item">
+            <div class="d-flex align-items-center">
+                <span class="engine-icon"><img src="music.png" alt=""></span>
+            </div>
+            <span>DJ Audio Engine</span>
+            <span class="arrow-icon"><i class="bi bi-arrow-down-circle"></i></span>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="d-flex justify-content-between align-items-center border-bottom engine-item">
+            <div class="d-flex align-items-center">
+                <span class="engine-icon"><img src="lapis.png" alt=""></span>
+            </div>
+            <span>Drawing Engine</span>
+            <span class="arrow-icon"><i class="bi bi-arrow-down-circle"></i></span>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="d-flex justify-content-between align-items-center border-bottom engine-item">
+            <div class="d-flex align-items-center">
+                <span class="engine-icon"><img src="film.png" alt=""></span>
+            </div>
+            <span>Video Editing Engine</span>
+            <span class="arrow-icon"><i class="bi bi-arrow-down-circle"></i></span>
+        </div>
+    </div>
+
+    <div class="container bg-color-laranja2 border">
+        <div class="d-flex justify-content-center align-items-center text-color-white text-center mt-10">
+            <div>
+                <h1>A Galaxy Of Apps</h1>
+                <p class="semibold max424">In our galaxy of MWM apps, each star gleams with AI-powered
+                    technology. They are no ordinary stars, though. These apps are your
+                    new frontiers, designed to stretch the boundaries of creativity.
+                    Despite their advanced tech, they remain ultra-accessible, ready for
+                    pioneers of all skill levels.</p>
+            </div>
+        </div>
+
+        <div class="mt-10"><img class="w-100 p-5" src="laranja.png" alt=""></div>
+        <div class="text-center mt-5 mb-10">
+            <button class="btn-custom2">OUR APPLICATIONS</button>
+        </div>
+    </div>
+
+    <div class="text-center margimneg"><img class="img-fluid" src="imgdoida.png" alt=""></div>
+    <div class="pc3">
+        <div class="container margimneg2 d-flex align-items-end gap-3">
+            <div class="img3">
+                <img class="border img-fluid w-100" src="mulher.png" alt="">
+            </div>
+            <div class="mb-0">
+                <h1 class="text2">MAD MINDS,<br>GREAT<br>MINDS</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="mob3">
+        <div class="container d-flex flex-column align-items-center mt-4 gap-3">
+            <div class="img3">
+                <img class="border img-fluid w-100" src="mulher.png" alt="">
+            </div>
+            <div class="mb-0 text-center">
+                <h1 class="text2">MAD MINDS,<br>GREAT<br>MINDS</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container pc4">
+        <div class="parent align-items-center">
+            <div class="div1">
+                <p class="justify max325">At MWM, we see your unique style of 'madness' as the spark that ignites
+                    groundbreaking discoveries. We
+                    understand that everyone is different, and we celebrate those differences because we believe they
+                    can
+                    lead to incredible things.</p>
+                <p class="justify max325">We want you to feel comfortable being yourself when you work with us, and
+                    we're committed to creating an
+                    environment that encourages everyone to step outside their comfort zone. After all, exploring new
+                    ideas,
+                    even if they seem a bit 'mad', is how we continue to learn, grow, and create amazing things
+                    together.</p>
+                <button class="btn-custom">JOIN US</button>
+            </div>
+            <div class="div2"><img src="homem.png" alt="Homem" class="border img-fluid"></div>
+            <div class="div3 margimneg3"><img class="border max325" src="homem2.png" alt=""></div>
+        </div>
+    </div>
+
+
+    <div class="container mob4">
+        <div class="d-flex flex-column align-items-center justify-content-center gap-4">
+            <div class="div1 text-center text-md-start">
+                <img src="homem.png" alt="Homem" class="border img-fluid">
+            </div>
+            <div class="div2 text-center">
+                <p class="justify max325">At MWM, we see your unique style of 'madness' as the spark that ignites
+                    groundbreaking discoveries. We understand that everyone is different, and we celebrate those
+                    differences because we believe they can lead to incredible things.</p>
+                <p class="justify max325">We want you to feel comfortable being yourself when you work with us, and
+                    we're committed to creating an environment that encourages everyone to step outside their comfort
+                    zone. After all, exploring new ideas, even if they seem a bit 'mad', is how we continue to learn,
+                    grow, and create amazing things together.</p>
+                <button class="btn-custom">JOIN US</button>
+            </div>
+            <div class="div3 text-center">
+                <img class="border max325" src="homem2.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container mt-5">
+            <div class="row">
+                <!-- Coluna da esquerda -->
+                <div class="col-md-4 ">
+                    <img src="logo.png" alt="Logo" class="border2" style="width: 30px;">
+                    <hr>
+                    <p class="fw-semibold">Ranked as France's top app publisher, our mission is to bring groundbreaking
+                        AI-powered apps to you.
+                        We're all about exploring limitless potential - is it time you explore with us?</p>
+                    <p class="fw-semibold"><a href="#">LinkedIn</a><br><a href="#">Twitter</a></p>
+                </div>
+
+                <!-- Coluna do meio -->
+                <div class="col-md-4 mt-5">
+                    <h5 class="fw-bold">Menu</h5>
+                    <hr>
+                    <p class="fw-bold"><a href="#">Technology</a></p>
+                    <p class="fw-bold"><a href="#">Publishing</a></p>
+                    <p class="fw-bold"><a href="#">Applications</a></p>
+                    <p class="fw-bold"><a href="#">Career</a></p>
+                    <p class="fw-bold"><a href="#">Journal</a></p>
+                    <p class="fw-bold"><a href="#">Cookie & privacy</a></p>
+                </div>
+
+                <!-- Coluna da direita -->
+                <div class="col-md-4 mt-5">
+                    <h5 class="fw-bold">Contact</h5>
+                    <hr>
+                    <p class="fw-bold"><a href="#">Join us</a></p>
+                    <p class="fw-bold"><a href="#">Contact us</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-5">
+            <img class="w-100" src="footer.png" alt="">
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="menu.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
